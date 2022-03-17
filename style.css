@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#conteiner{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+
+}
+.box{
+
+    background: black;
+    color: white;
+    padding: 20px;
+    width: 60vw;
+    height: 17vh;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.titulobox1,.titulobox2{
+    padding: 10px;
+}
+
+.p-box1, .p-box2{
+    padding: 10px;
+}
+
+.bnt{
+
+    height: 5vh;
+    padding: 5px;
+    width: 11vw;
+    margin: 8px;
+    background-color: #f6bb08;
+    border-color: #f6bb08;
+    border-radius: 5px;
+
+}
+span{
+    color:#f6bb08;
+}

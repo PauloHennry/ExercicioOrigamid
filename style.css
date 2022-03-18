@@ -6,31 +6,58 @@
 
 #conteiner{
     
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10vh;
+    margin: 10vh; */
 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+}
+.menu{
+    background: black;
+    color: #f6bb08;
+    list-style: none;
+    width: 100%;
+}
+.cont-link{
+    display: flex;
+    justify-content: space-evenly;
+    height: 84px;
+    align-items: center;
+    font-size: 18px;
+    width: 100%
+}
+li.link{
+    margin-bottom: 1px;
+    border-bottom: solid 1px #f6bb08;
+}
+.titulo{
+    text-align: center;
+    margin: 20px;
 }
 .box{
 
     background: black;
     color: white;
     padding: 20px;
-    width: 60vw;
-    height: 17vh;
+    height: 500px;
     font-size: 20px;
     margin: 20px;
-}
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
 
+}
 .titulobox1,.titulobox2{
     padding: 10px;
 }
-
 .p-box1, .p-box2{
     padding: 10px;
 }
-
 .bnt{
 
     height: 5vh;
